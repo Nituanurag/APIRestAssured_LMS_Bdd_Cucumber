@@ -7,6 +7,22 @@
   <description>Jan23-ApiNinja5-SDET-016</description>
   
    <dependencies>
+	   
+	   <dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>5.3.0</version>
+    <scope>test</scope>
+  </dependency>
+  
+  <dependency>
+	<groupId>org.testng</groupId>
+	<artifactId>testng</artifactId>
+	<version>7.4.0</version>
+	<scope>test</scope>
+  </dependency>
+  
+  
 	<dependency>
 	    <groupId>io.cucumber</groupId>
 	    <artifactId>cucumber-java</artifactId>
@@ -23,6 +39,15 @@
 	    <artifactId>selenium-java</artifactId>
 	    <version>4.7.2</version>
 	</dependency>
-  </dependencies>  
+	
+	<dependency>
+	    <groupId>com.fasterxml.jackson.core</groupId>
+	    <artifactId>jackson-databind</artifactId>
+	    <version>2.14.1</version>
+	</dependency>
+	
+  </dependencies> 
+  
+   
   
 </project>
