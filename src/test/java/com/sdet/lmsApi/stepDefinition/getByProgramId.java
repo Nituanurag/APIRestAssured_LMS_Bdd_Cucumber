@@ -1,7 +1,5 @@
 package com.sdet.lmsApi.stepDefinition;
 
-import static org.testng.Assert.assertEquals;
-
 import org.junit.Assert;
 
 import io.cucumber.java.en.Given;
